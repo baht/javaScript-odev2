@@ -3,6 +3,8 @@
 // (Araştırma konusu : şart blokları : if )
 // Örnek kullanım : findPrime(2,5,8,21, 13) findPrime(3,5)
 
+console.log("1.Soru Çıktıları:")
+
 function findPrime(...numbers) {                                //Kullanıcıdan istediği kadar sayıyı aldık.
     for (let a = 0; a < numbers.length; a++) {                  //for döngüsünü aldığımız sayı dizisinin uzunluğundan kısa olduğu sürece çalıştırdık.
         let counter = 0                                         //sayaç tanımlaması yaptık.
@@ -32,6 +34,8 @@ findPrime(3,5)                                                  //ödevdeki örn
 //2- Parametre olarak girilen iki sayının arkadaş sayılar olup olmadığını bulan programı yazınız. 
 // (Arkadaş sayılar için google)
 
+console.log("2.Soru Çıktıları:")
+
 function friendNumbers(number1, number2) {                      //iki sayı tanımlayabileceğimiz fonksiyonu istedik.
     let total1 = 0                                              //birinci sayının bölenlerini toplamak için bir değişken tanımladık.
     let total2 = 0                                              //ikinci sayının bölenlerini toplamak için bir değişken tanımladık.
@@ -60,6 +64,8 @@ friendNumbers (150,190)                                         //fonksiyon tan�
 
 //3- 1000'e kadarki tüm mükemmel sayıları listeleyen programı yazınız.
 
+console.log("3.Soru Çıktıları:")
+
 function perfectNumbers() {                                     //fonksiyona değişken tanımlamadık. aşağıda 1000'e kadar olan sayıları belirteceğiz.
     for (let number = 2; number < 1001; number++) {             //kendisi hariç pozitif bölenleri olduğu için 2'den 1000'e kadar olan sayıları döngüye aldık.
         let total = 0                                           //bir toplam değişkeni belirledik.
@@ -77,6 +83,8 @@ function perfectNumbers() {                                     //fonksiyona de�
 perfectNumbers()                                                //fonksiyonu çalıştırdık.
 
 //4- 1000'e kadarki tüm asal sayıları listeleyen programı yazınız.
+
+console.log("4.Soru Çıktıları:")
 
 function primeNumbers() {                                       //fonksiyona değişken tanımlamadık. aşağıda 1000'e kadar olan sayıları belirteceğiz.
     for (let number = 2; number < 1001; number++) {             //kendisi hariç pozitif bölenleri olduğu için 2'den 1000'e kadar olan sayıları döngüye aldık.
